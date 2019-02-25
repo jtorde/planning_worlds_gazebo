@@ -49,6 +49,6 @@ The cylinders will start to polulate the world with the density specified in `cr
 ### License and Credits
 Academic license - for non-commercial use only
 
-Some part of the code of `create_random_forest.cpp` has been take from [here](https://github.com/ethz-asl/mav_voxblox_planning/blob/master/mav_planning_benchmark/src/local_planning_benchmark.cpp).
+Some parts of the code of `create_random_forest.cpp` has been take from [here](https://github.com/ethz-asl/mav_voxblox_planning/blob/master/mav_planning_benchmark/src/local_planning_benchmark.cpp).
 
 The file `gazebo_cube_spawner.h` is from [here](https://github.com/JenniferBuehler/gazebo-pkgs/blob/master/gazebo_test_tools/include/gazebo_test_tools/gazebo_cube_spawner.h)
