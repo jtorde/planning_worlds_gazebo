@@ -14,9 +14,6 @@ Gazebo worlds used in the paper **Real-Time Planning with Multi-Fidelity Models 
 
 The three worlds available in this repo are these ones:
 
-Office                    |  Forest
-
-
 
 Office (.world + .bag)     |  Bugtrap (.world + .bag)  |  Forest (x10) (.world )
 :-------------------------:|:-------------------------:|:-------------------------:
