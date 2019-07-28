@@ -19,7 +19,7 @@ Gazebo worlds used in the papers:
 **Real-Time Planning with Multi-Fidelity Models for Agile Flights in Unknown Environments** (ICRA 2019) ([pdf](https://arxiv.org/abs/1810.01035), [video](https://www.youtube.com/watch?v=E4V2_B8x-UI))
 
 ```
-@inproceedings{tordesillas2018real,
+@inproceedings{tordesillas2019real,
   title={Real-Time Planning with Multi-Fidelity Models for Agile Flights in Unknown Environments},
   author={Tordesillas, Jesus and Lopez, Brett T and Carter, John and Ware, John and How, Jonathan P},
   booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)},
