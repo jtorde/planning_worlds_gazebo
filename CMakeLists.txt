@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(worlds_project)
+project(planning_worlds_gazebo)
 
 find_package(catkin)
 
@@ -17,8 +17,11 @@ find_package(gazebo REQUIRED)
 link_directories(${GAZEBO_LIBRARY_DIRS})
 include_directories(${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS})
 
-add_executable(create_random_forest forest/create_random_forest.cpp)
+add_executable(create_random_forest src/forest/create_random_forest.cpp)
 target_link_libraries(create_random_forest ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+
+add_library(disable_physics src/disable_physics.cpp)
+target_link_libraries(disable_physics ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
 
 catkin_package(
   DEPENDS 

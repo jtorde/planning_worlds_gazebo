@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>worlds_project</name>
+  <name>planning_worlds_gazebo</name>
   <version>0.0.0</version>
-  <description>The worlds_project package</description>
+  <description>The planning_worlds_gazebo package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->

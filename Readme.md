@@ -41,12 +41,19 @@ Clone this repository:
 git clone https://github.com/jtorde/planning_worlds_gazebo.git
 ```
 
-If you want to generate your own forest:
+And then source the package:
 ```
 cd planning_worlds_gazebo
 catkin build
 source devel/setup.bash 
 ```
+#### To launch a world in Gazebo:
+```
+roslaunch planning_worlds_gazebo start_world.launch
+```
+(the world name is specified can be modified in the launch file or in the command line)
+
+#### To generate your own random forest:
 Then, in one terminal:
 ```
 roslaunch gazebo_ros empty_world.launch
@@ -57,6 +64,7 @@ rosrun worlds_project create_random_forest
 ```
 
 The cylinders will start to polulate the world with the density specified in `create_random_forest.cpp`.
+
 
 
 ### License and Credits

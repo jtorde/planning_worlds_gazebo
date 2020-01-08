@@ -1,5 +1,6 @@
 <sdf version='1.6'>
     <world name='default'>
+    <plugin name="disable_physics" filename="libdisable_physics.so"/>
     <light name='sun' type='directional'>
       <cast_shadows>0</cast_shadows>
       <pose frame=''>0 0 10 0 -0 0</pose>
