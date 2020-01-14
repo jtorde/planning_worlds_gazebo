@@ -68,7 +68,7 @@ The cylinders will start to polulate the world with the density specified in `cr
 
 
 ### License and Credits
-Academic license - for non-commercial use only
+BSD 3-Clause, see License file attached
 
 Some parts of the code of `create_random_forest.cpp` has been take from [here](https://github.com/ethz-asl/mav_voxblox_planning/blob/master/mav_planning_benchmark/src/local_planning_benchmark.cpp).
 
