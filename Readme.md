@@ -36,14 +36,11 @@ Office (.world + .bag)     |  Bugtrap (.world + .bag)  |  Forest (x10) (.world +
 ![](./imgs/office.png)     |  ![](./imgs/bugtrap.png)  |  ![](./imgs/forest.png) 
 
 ### Instructions:
-Clone this repository:
+Create a workspace (if you do not have one yet), clone this repository and compile it:
 ```
+mkdir ws && cd ws && mkdir src && cd src
 git clone https://github.com/jtorde/planning_worlds_gazebo.git
-```
-
-And then source the package:
-```
-cd planning_worlds_gazebo
+cd ..
 catkin build
 source devel/setup.bash 
 ```
