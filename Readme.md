@@ -57,7 +57,7 @@ roslaunch gazebo_ros empty_world.launch
 ```
 And in other one:
 ```
-rosrun worlds_project create_random_forest
+rosrun planning_worlds_gazebo create_random_forest
 ```
 
 The cylinders will start to polulate the world with the density specified in `create_random_forest.cpp`.
