@@ -51,7 +51,7 @@ roslaunch planning_worlds_gazebo start_world.launch
 (the world name is specified can be modified in the launch file or in the command line)
 
 #### To generate your own random forest:
-Then, in one terminal:
+In one terminal:
 ```
 roslaunch gazebo_ros empty_world.launch
 ```
