@@ -24,12 +24,12 @@ public:
 
   void OnUpdate()
   {
-    if (_world->GetEnablePhysicsEngine())
+    if (_world->PhysicsEnabled())
     {
       printf("**DISABLING PHYSICS**\n");
-      _world->EnablePhysicsEngine(false);
+      _world->SetPhysicsEnabled(false);
     }
   }
 };
 GZ_REGISTER_WORLD_PLUGIN(WorldPluginTutorial)
-}
+}  // namespace gazebo
