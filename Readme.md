@@ -1,7 +1,15 @@
 
 # Worlds for Gazebo #
 
-Gazebo worlds used in the papers:
+The three worlds available in this repo are these ones:
+
+Office (.world + .bag)     |  Bugtrap (.world + .bag)  |  Forest (x10) (.world + .cpp)
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./imgs/office.png)     |  ![](./imgs/bugtrap.png)  |  ![](./imgs/forest.png) 
+
+
+## Citation
+When using this code, please cite these papers: 
 
 **FASTER: Fast and Safe Trajectory Planner for Flights in Unknown Environments** (IROS 2019) ([pdf](https://arxiv.org/abs/1903.03558), [video](https://www.youtube.com/watch?v=gwV0YRs5IWs))
 
@@ -28,14 +36,9 @@ Gazebo worlds used in the papers:
 }
 ```
 
-The three worlds available in this repo are these ones:
 
 
-Office (.world + .bag)     |  Bugtrap (.world + .bag)  |  Forest (x10) (.world + .cpp)
-:-------------------------:|:-------------------------:|:-------------------------:
-![](./imgs/office.png)     |  ![](./imgs/bugtrap.png)  |  ![](./imgs/forest.png) 
-
-### Instructions:
+## Instructions:
 Create a workspace (if you do not have one yet), clone this repository and compile it:
 ```
 mkdir ws && cd ws && mkdir src && cd src
@@ -64,7 +67,7 @@ The cylinders will start to polulate the world with the density specified in `cr
 
 
 
-### License and Credits
+## License and Credits
 BSD 3-Clause, see License file attached
 
 Some parts of the code of `create_random_forest.cpp` has been take from [here](https://github.com/ethz-asl/mav_voxblox_planning/blob/master/mav_planning_benchmark/src/local_planning_benchmark.cpp).
