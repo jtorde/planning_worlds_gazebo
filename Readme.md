@@ -63,7 +63,7 @@ And in other one:
 rosrun planning_worlds_gazebo create_random_forest
 ```
 
-The cylinders will start to polulate the world with the density specified in `create_random_forest.cpp`.
+The cylinders will start to populate the world with the density specified in `create_random_forest.cpp`.
 
 
 
