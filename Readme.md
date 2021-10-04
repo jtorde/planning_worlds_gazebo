@@ -43,7 +43,7 @@ Create a workspace (if you do not have one yet), clone this repository and compi
 ```
 mkdir ws && cd ws && mkdir src && cd src
 git clone https://github.com/jtorde/planning_worlds_gazebo.git
-#cd planning_worlds_gazebo && git checkout -b feature/melodic origin/feature/melodic #run this ONLY if you are using ROS Melodic or ROS Noetic
+#cd planning_worlds_gazebo && git checkout -b feature/melodic origin/feature/melodic && cd .. #run this ONLY if you are using ROS Melodic or ROS Noetic
 cd ..
 catkin build
 source devel/setup.bash 
